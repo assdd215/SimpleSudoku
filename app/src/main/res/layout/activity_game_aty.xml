@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.aria.sudokuweb.view.GameView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game_aty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainView_Back"
+    tools:context="com.example.aria.sudokuweb.activity.GameAty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/WHITE"
+        android:gravity="center"
+        android:id="@+id/game_title_jiandan"
+        android:text="简单"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/game_title_de"
+        android:text="の"
+        android:textSize="14dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/game_title_shudu"
+        android:text="数独"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_level_title"
+        android:text="关卡：LEVEL - 1"
+        android:textSize="35dp"
+        android:textColor="@color/WHITE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menuLayout"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnControlTimer"
+            android:text="暂停"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"/>
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_chronometer"
+            android:textSize="25dp"
+            android:textColor="@color/WHITE"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnCheckChess"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="检查"
+            android:textSize="20dp"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+     <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/game_gridlayout"
+         android:background="@drawable/num_layout_frame"
+         android:columnCount="9"/>
+
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:id="@+id/game_btn_back"
+        android:textSize="30dp"
+        android:text="返回"
+        android:background="@drawable/btn_frame"
+        android:gravity="center"/>
+
+</com.example.aria.sudokuweb.view.GameView>

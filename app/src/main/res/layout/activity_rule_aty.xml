@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rule_aty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainView_Back"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.example.aria.sudokuweb.activity.RuleAty">
+
+    <TextView
+        android:layout_width="440dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/RuleTitle"
+        android:text="规 则 说 明"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/WHITE"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/RuleContent"
+        android:text="@string/RULE_CONTENT"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="left"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/WHITE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"/>
+</RelativeLayout>

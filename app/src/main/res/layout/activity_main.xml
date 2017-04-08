@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.aria.sudokuweb.view.MainView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainView_Back"
+    tools:context="com.example.aria.sudokuweb.activity.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/WHITE"
+        android:gravity="center"
+        android:id="@+id/select_title_jiandan"
+        android:text="简单"
+        android:textSize="55dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/select_title_de"
+        android:text="の"
+        android:textSize="42dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/select_title_shudu"
+        android:text="数独"
+        android:textSize="55dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/StartGame"
+        android:textColor="@color/WHITE"
+        android:text="开 始 游 戏"
+        android:textSize="35dp"
+        android:background="@drawable/btn_frame"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/CheckRank"
+        android:text="查 看 排 行"
+        android:textSize="35dp"
+        android:background="@drawable/btn_frame"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/ExitGame"
+        android:text="退 出 游 戏"
+        android:textSize="35dp"
+        android:background="@drawable/btn_frame"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HelpBtn"
+        android:background="@drawable/help_btn"/>
+
+
+</com.example.aria.sudokuweb.view.MainView>

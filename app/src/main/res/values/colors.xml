@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="MainView_Back">#7bbfea</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="MOONBLUE">#EEEEFF</color>
+    <color name="AliceBlue">#def0ed</color>
+    <color name="AQUABLUE">#B9DCED</color>
+    <color name="ROCKBLUE">#759FBD</color>
+    <color name="NUMBER_ERROR">#d95f5f</color>
+</resources>

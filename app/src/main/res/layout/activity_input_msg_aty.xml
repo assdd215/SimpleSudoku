@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.aria.sudokuweb.view.InputMsgView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_input_msg_aty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainView_Back"
+    tools:context="com.example.aria.sudokuweb.activity.InputMsgAty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/WHITE"
+        android:gravity="center"
+        android:id="@+id/input_title_jiandan"
+        android:text="简单"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/input_title_de"
+        android:text="の"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/input_title_shudu"
+        android:text="数独"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/input_title"
+        android:text="恭喜通关！"
+        android:textSize="60sp"
+        android:textColor="@color/WHITE"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/input_usetime_layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/input_usetime_text"
+            android:text="用时:"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/input_usetime_number"
+            android:layout_alignBottom="@+id/input_usetime_number"
+            android:textColor="@color/WHITE"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/input_usetime_number"
+            android:textSize="70dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/WHITE"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/input_usetime_second"
+            android:text="     秒"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/input_usetime_number"
+            android:layout_alignBottom="@+id/input_usetime_number"
+            android:textColor="@color/WHITE"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_username_title"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/input_usetime_layout"
+        android:layout_marginTop="40dp"
+        android:text="输入玩家名："
+        android:textSize="30sp"
+        android:textColor="@color/WHITE"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/input_username_title"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:id="@+id/input_username_edit"
+        android:textSize="20sp"
+        android:lines="1"
+        android:digits="0123456789qwertyuioplkjhgfdsazxcvbnm"
+        android:maxLength="8"
+        android:hint="输入名字……"
+        android:textColorHint="@color/AliceBlue"
+        android:background="@drawable/input_edit_frame"
+        android:textColor="@color/WHITE"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/input_username_edit"
+        android:layout_marginTop="20dp"
+        android:id="@+id/input_username_submitbtn"
+        android:text="提         交"
+        android:textSize="30dp"
+        android:textColor="@color/MainView_Back"
+        android:background="@color/WHITE"/>
+
+
+</com.example.aria.sudokuweb.view.InputMsgView>

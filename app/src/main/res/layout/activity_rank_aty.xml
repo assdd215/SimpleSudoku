@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.aria.sudokuweb.view.RankView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rank_aty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainView_Back"
+    tools:context="com.example.aria.sudokuweb.activity.RankAty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/WHITE"
+        android:gravity="center"
+        android:id="@+id/rank_title_jiandan"
+        android:text="简单"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/rank_title_de"
+        android:text="の"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/rank_title_shudu"
+        android:text="数独"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/rank_title"
+        android:text="排 行 榜"
+        android:textSize="50dp"
+        android:textColor="@color/WHITE"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="3dp"-->
+        <!--android:background="@color/WHITE"-->
+        <!--android:id="@+id/rank_line1"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/rank_menu_layout"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rank_local"
+            android:text="本区排行"
+            android:textColor="@color/WHITE"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rank_global"
+            android:text="全服排行"
+            android:textColor="@color/WHITE"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/rank_line2"
+        android:layout_below="@+id/rank_menu_layout"
+        android:layout_marginTop="25dp"
+        android:background="@color/WHITE"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rank_list_title_layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/rank_level_title"
+            android:text="关卡"
+            android:textSize="25dp"
+            android:textColor="@color/WHITE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/rank_item_frame"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/rank_username_title"
+            android:text="玩家名"
+            android:textSize="25dp"
+            android:textColor="@color/WHITE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/rank_item_frame"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/rank_usetime_title"
+            android:textSize="25dp"
+            android:text="用时"
+            android:textColor="@color/WHITE"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/rank_item_frame"/>
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/rank_viewPager"
+        android:layout_below="@+id/rank_list_title_layout"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/rank_viewPager"
+        android:layout_marginTop="0dp"
+        android:background="@color/WHITE"/>
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:id="@+id/rank_btn_back"
+        android:textSize="30dp"
+        android:text="返回"
+        android:background="@drawable/btn_frame"
+        android:gravity="center"/>
+
+</com.example.aria.sudokuweb.view.RankView>

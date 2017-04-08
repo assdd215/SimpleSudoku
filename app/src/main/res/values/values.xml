@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="MAIN_TITLE_JIANDAN_TOP">176</integer>
+    <integer name="MAIN_TITLE_JIANDAN_LEFT">113</integer>
+    <integer name="MAIN_TITLE_DE_TOP">243</integer>
+    <integer name="MAIN_TITLE_DE_LEFT">407</integer>
+    <integer name="MAIN_TITLE_SHUDU_TOP">288</integer>
+    <integer name="MAIN_TITLE_SHUDU_LEFT">554</integer>
+    <integer name="MAIN_STARTGAME_TOP">517</integer>
+    <integer name="MAIN_STARTGAME_LEFT">141</integer>
+    <integer name="MAIN_RANK_TOP">630</integer>
+    <integer name="MAIN_RANK_LEFT">141</integer>
+    <integer name="MAIN_EXIT_TOP">732</integer>
+    <integer name="MAIN_EXIT_LEFT">141</integer>
+    <integer name="MAIN_HELP_TOP">27</integer>
+    <integer name="MAIN_HELP_LEFT">871</integer>
+    <integer name="MAIN_HELP_WIDTH">86</integer>
+
+    <integer name="SELECT_TITLE_JIANDAN_TOP">37</integer>
+    <integer name="SELECT_TITLE_JIANDAN_LEFT">75</integer>
+    <integer name="SELECT_TITLE_DE_TOP">70</integer>
+    <integer name="SELECT_TITLE_DE_LEFT">214</integer>
+    <integer name="SELECT_TITLE_SHUDU_TOP">82</integer>
+    <integer name="SELECT_TITLE_SHUDU_LEFT">281</integer>
+    <integer name="SELECT_TITLE_LOGO_TOP">38</integer>
+    <integer name="SELECT_TITLE_LOGO_LEFT">76</integer>
+    <integer name="SELECT_TITLE_LOGO_HEIGHT">57</integer>
+    <integer name="SELECT_TITLE_LOGO_WIDTH">344</integer>
+    <integer name="SELECT_TITLE_TOP">233</integer>
+    <integer name="SELECT_VIEWPAGER_TOP">517</integer>
+    <integer name="SELECT_BACKBTN_TOP">923</integer>
+    <integer name="SELECT_BACKBTN_LEFT">716</integer>
+
+    <integer name="GAME_TITLE_JIANDAN_TOP">27</integer>
+    <integer name="GAME_TITLE_JIANDAN_LEFT">55</integer>
+    <integer name="GAME_TITLE_DE_TOP">60</integer>
+    <integer name="GAME_TITLE_DE_LEFT">144</integer>
+    <integer name="GAME_TITLE_SHUDU_TOP">72</integer>
+    <integer name="GAME_TITLE_SHUDU_LEFT">191</integer>
+    <integer name="GAME_LEVEL_TITLE_TOP">128</integer>
+    <integer name="GAME_MENU_LAYOUT_TOP">212</integer>
+    <integer name="GAME_GRIDLAYOUT_TOP">272</integer>
+    <integer name="GAME_BACKBTN_TOP">923</integer>
+    <integer name="GAME_BACKBTN_LEFT">716</integer>
+
+    <integer name="RANK_TITLE_JIANDAN_TOP">37</integer>
+    <integer name="RANK_TITLE_JIANDAN_LEFT">75</integer>
+    <integer name="RANK_TITLE_DE_TOP">70</integer>
+    <integer name="RANK_TITLE_DE_LEFT">214</integer>
+    <integer name="RANK_TITLE_SHUDU_TOP">82</integer>
+    <integer name="RANK_TITLE_SHUDU_LEFT">281</integer>
+    <integer name="RANK_RANKTITLE_TOP">182</integer>
+    <integer name="RANK_LINE1_TOP">276</integer>
+    <integer name="RANK_MENULAYOUT_TOP">331</integer>
+    <integer name="RANK_PAGE_TITLE_LAYOUT_TOP">435</integer>
+    <integer name="RANK_VIEWPAGER_TOP">495</integer>
+    <integer name="RANK_BACKBTN_TOP">923</integer>
+    <integer name="RANK_BACKBTN_LEFT">716</integer>
+
+    <integer name="INPUT_TITLE_JIANDAN_TOP">37</integer>
+    <integer name="INPUT_TITLE_JIANDAN_LEFT">75</integer>
+    <integer name="INPUT_TITLE_DE_TOP">70</integer>
+    <integer name="INPUT_TITLE_DE_LEFT">214</integer>
+    <integer name="INPUT_TITLE_SHUDU_TOP">82</integer>
+    <integer name="INPUT_TITLE_SHUDU_LEFT">281</integer>
+    <integer name="INPUT_SUCCESSTITLE_TOP">262</integer>
+    <integer name="INPUT_USETIME_LAYOUT_TOP">425</integer>
+</resources>

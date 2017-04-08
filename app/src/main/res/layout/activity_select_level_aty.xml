@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.aria.sudokuweb.view.SelectLevelView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_level_aty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainView_Back"
+    tools:context="com.example.aria.sudokuweb.activity.SelectLevelAty">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/WHITE"
+        android:gravity="center"
+        android:id="@+id/select_title_jiandan"
+        android:text="简单"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/select_title_de"
+        android:text="の"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/select_title_shudu"
+        android:text="数独"
+        android:textSize="24dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_title"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:text="选 择 关 卡"/>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_viewpager"/>
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:id="@+id/select_btn_back"
+        android:textSize="30dp"
+        android:text="返回"
+        android:background="@drawable/btn_frame"
+        android:gravity="center"/>
+
+</com.example.aria.sudokuweb.view.SelectLevelView>
