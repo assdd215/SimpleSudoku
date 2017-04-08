@@ -34,6 +34,7 @@ public class MainActivity extends Activity{
 
         //设置布局
         setContentView(R.layout.activity_main);
+        int i;
 
         //获取屏幕的宽高
         DisplayMetrics dm = new DisplayMetrics();
