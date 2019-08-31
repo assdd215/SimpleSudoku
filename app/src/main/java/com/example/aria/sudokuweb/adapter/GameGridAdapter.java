@@ -5,7 +5,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 /**
- * Created by Aria on 2016/12/4.
+ * Created by Aria on 2016/12/4.1·
  */
 
 public class GameGridAdapter extends BaseAdapter{
